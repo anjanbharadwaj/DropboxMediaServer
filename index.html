@@ -3,12 +3,12 @@
 	<head>
 		<title>Web Server</title>
 	</head>
-	
+
 	<body>
 		<input id="filename" type="text" name="filename" placeholder = "File you want to retrieve" >
 		<button id="download">Download File</button>
 
-		<form id="upload_form" enctype="multipart/form-data" action="http://8a30a869.ngrok.io/upload"method="POST">
+		<form id="upload_form" enctype="multipart/form-data" action="<insert your ngrok url here>/upload"method="POST">
   		<input type="file" name="file"/>
         	<input type="submit" />
 <!--
